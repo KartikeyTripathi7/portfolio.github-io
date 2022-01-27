@@ -1,0 +1,191 @@
+@import 'utilities.css';
+:root {
+    --primary: #3DCFD3;
+    --light: #FFFFFF;
+    --dark: #161616;
+    --ternary: #898989;
+    --pure: #F2F2F2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background-color: rgb(18, 20, 15);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left {
+    color: var(--light);
+    text-decoration: none;
+}
+
+header nav .right a {
+    color: lightgrey;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+header nav .right .linku a :hover {
+    color: var(--primary)
+}
+
+header nav {
+    padding: 2rem;
+}
+
+.hero .right img {
+    width: 400px;
+    padding-left: 20rem;
+}
+
+.hero .left {
+    color: lightgray;
+}
+
+.hero .left h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 1.2;
+    padding-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+.hero .left h1 span {
+    color: rgba(24, 151, 255, 0.788);
+}
+
+.hero.left p {
+    line-height: 1.9;
+    margin-bottom: 3rem;
+}
+
+.name h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--ternary)
+}
+
+.hero .right img {
+    margin: 5rem;
+    padding: .5rem;
+}
+
+.section-heading {
+    color: var(--dark);
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    line-height: 0.5rem;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+section.hobbies .card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+}
+
+section.hobbies {
+    background: var(--ternary);
+    clip-path: polygon(0 -500%, 100% -500%, 100% 100%, 0 100%);
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+section.hobbies .card-wrapper .card {
+    background-color: tomato;
+    padding: 3rem;
+    padding-bottom: 4rem;
+}
+
+section.hobbies .card-wrapper .card2 {
+    background-color: yellowgreen;
+    padding: 3rem;
+    padding-bottom: 4rem;
+}
+
+section.hobbies .card-wrapper .card3 {
+    background-color: springgreen;
+    padding: 3rem;
+    padding-bottom: 4rem;
+}
+
+section.hobbies .card-wrapper .card4 {
+    background-color: royalblue;
+    padding: 3rem;
+    padding-bottom: 4rem;
+}
+
+section.skills {
+    background-color: aqua;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
+.end-heading {
+    color: var(--dark);
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    line-height: 0.5rem;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+section.skills .html .head {
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+section.skills .ending .html {
+    background-color: rgb(231, 117, 64);
+    padding: .5rem;
+    padding-bottom: 3rem;
+}
+
+section.skills .ending {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 2rem;
+}
+
+section.skills .ending .html1 {
+    background-color: rgb(32, 152, 207);
+    padding: .5rem;
+    padding-bottom: 3rem;
+}
+
+section.skills .ending .html2 {
+    background-color: rgb(98, 223, 60);
+    padding: .5rem;
+    padding-bottom: 3rem;
+}

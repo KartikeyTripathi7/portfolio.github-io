@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="home" class="container">
+
+
+            <nav class="flex items-centre justify-between">
+                <div class="left flex items-centre">
+
+
+
+                    <div class="name">
+                        <h2>
+                            KARTIKEY TRIPATHI
+                        </h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="link linku">
+                        <a href="#home">HOME</a>
+                        <a href="#about">HOBBIES</a>
+                        <a href="#skill">SKILLS</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero flex items-center justify-between">
+
+                <div class="left">
+                    <h1>
+                        A GIGGLEMUG <span>CODER</span>
+
+                    </h1>
+
+                    <p>
+                        Hello, I am Kartikey, I am a bit new to this world hope so that I will fit in well. I have always been the joker of my classes maybe this time I will be of the society.
+                    </p>
+                    <div>
+                        <button class="btn btn-primary">
+                             <a href="#about">HOBBIES</a>
+                         </button>
+                        <button class="btn btn-primary">
+                            <a href="#skill">SKILLS</a>
+                         </button>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <img src="./images/Snapchat-2072511575.jpg">
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section id="about" class="hobbies">
+        <div class="container">
+            <h1 class="section-heading">
+                My Hobbies
+            </h1>
+            <div class="card-wrapper flex items-center justify-between">
+                <div class="card items-center">
+                    <img src="images/icons8-soccer-ball-48.png">
+                    <h2>Football</h2>
+                </div>
+                <div class="card2">
+                    <img src="images/icons8-suitcase-48.png">
+                    <h3>Travelling</h3>
+                </div>
+                <div class="card3">
+                    <img src="images/icons8-game-controller-48.png">
+                    <h4>Gaming</h4>
+                </div>
+                <div class="card4">
+                    <img src="images/icons8-movie-theater-48.png">
+                    <h5>Movies</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skill" class="skills">
+
+        <div class="end">
+
+            <h1 class="end-heading">
+                SKILLS
+            </h1>
+
+            <div class="ending flex items-center justify-between">
+                <div class="html">
+                    <h2 class="head">HTML</h2>
+                    <img src="images/Picsart_22-01-25_23-56-00-082 (1).png">
+                </div>
+                <div class="html1">
+                    <h2 class="head">CSS</h2>
+                    <img src="images/Picsart_22-01-25_23-58-21-292 (1).png">
+                </div>
+                <div class="html2">
+                    <h2 class="head">JS</h2>
+                    <img src="images/Picsart_22-01-25_23-57-10-010 (1).png">
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+
+</body>
+
+</html>
